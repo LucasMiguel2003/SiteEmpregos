@@ -1,6 +1,6 @@
 let opcao = ""
 let vagas = []
-let pessoas = ""
+
 
 
 
@@ -26,6 +26,7 @@ let listarVagas = function(){
     if(vagas.length == 0){
         return alert("Não existem vagas cadastradas no momento")
      }
+     let pessoas = ""
    for(let i = 0; i < vagas.length; i++){
     pessoas+= "Nome da vaga: " + vagas[i].nome +
     "\nIndice: " + (i+1) +
